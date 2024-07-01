@@ -8,13 +8,13 @@ const contactRouter = Router();
 contactRouter.get('/addresses', getContacts);
    
 //Post route for storing new address 
-contactRouter.post('/api/addresses',addContacts );
+contactRouter.post('/addresses',addContacts );
    
 //Put route for updating address with new data
-contactRouter.patch('/api/addresses/:id',updateContact);
+contactRouter.patch('/addresses/:id',updateContact);
    
 //Delete route for deleting address with specified id
-contactRouter.delete('/api/addresses/:id',deleteContact);
+contactRouter.delete('/addresses/:id',deleteContact);
 
 
   export default contactRouter;

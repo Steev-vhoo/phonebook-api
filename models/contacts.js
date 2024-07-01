@@ -7,11 +7,11 @@ const contactSchema = new Schema({
     company: {type: String, required:true},
     phone: {type: String, required:true},
     email: {type: String, required:true},
-    birthday: {type: String, required:true},
-    address: {type: String, required:true},
-    socials: {type: String, required:true},
-    description: {type: String, required:true},
-    photo: {type: String, required:true },
+    birthday: {type: Date},
+    address: {type: String},
+    socials: {type: String},
+    description: {type: String},
+    photo: {type: String},
     favourite: {type:Boolean, default:false}
 },{
     timestamps: true
