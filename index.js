@@ -1,4 +1,5 @@
 import express from 'express';
+import {} from 'express-validator';
 import mongoose from 'mongoose';
 import contactRouter from "./routes/contacts.js"
 import expressOasGenerator from "express-oas-generator";
